@@ -7,7 +7,7 @@ The Medibox project is a smart medicine management system using an ESP32. It all
 
 ## 🌟 Key Features
 
-### Time Management & Alarms
+### ✔️ Time Management & Alarms
 - Fetches current time from an NTP server via Wi-Fi (Time Synchronization).  
 - Allows time zone configuration.  
 - OLED display shows the current time.  
@@ -17,7 +17,7 @@ The Medibox project is a smart medicine management system using an ESP32. It all
 - Alarm dismissal via push buttons.  
 - Persistent storage of alarms and user settings in non-volatile memory.  
 
-### Environmental Monitoring
+### ✔️ Environmental Monitoring
 - Monitors temperature and humidity using DHT11.  
 - Issues warnings when values exceed healthy limits:  
   - Temperature: 24°C–32°C  
@@ -25,19 +25,19 @@ The Medibox project is a smart medicine management system using an ESP32. It all
 - Continuous monitoring of environmental conditions.  
 - Change detection to minimize power consumption.  
 
-### Light Intensity Monitoring & Control
+### ✔️ Light Intensity Monitoring & Control
 - Measures light using an LDR sensor at configurable intervals.  
 - Averages readings over a period and sends data to Node-RED dashboard.  
 - Displays numerical values and historical charts on Node-RED.  
 - Servo motor adjusts shaded sliding window based on light intensity.  
 - Motor angle calculated considering configurable parameters: minimum angle (θoffset), controlling factor (γ), ideal storage temperature (Tmed).  
 
-### User Interface
+### ✔️ User Interface
 - Menu-driven OLED display for easy navigation and configuration.  
 - Allows alarm setup, time zone adjustments, and system status checks.  
 - Displays warnings when environmental thresholds are exceeded.  
 
-### Communication Management
+### ✔️ Communication Management
 - Connects securely to an MQTT broker for remote data transmission and control.  
 - Publishes sensor data to MQTT topics for Node-RED dashboard visualization.  
 - Subscribes to topics for remote control of the servo motor.  
@@ -70,17 +70,17 @@ The Medibox project is a smart medicine management system using an ESP32. It all
 
 ## 🔧 How It Works
 
-### Time & Alarm Management
+### ✔️ Time & Alarm Management
 - ESP32 connects to Wi-Fi and fetches current time from an NTP server.  
 - User sets timezone and alarms via OLED menu.  
 - Alarm notifications trigger buzzer, LED, and OLED messages.  
 - Alarms can be stopped or snoozed via push buttons.  
 
-### Environment Monitoring
+### ✔️ Environment Monitoring
 - Temperature and humidity are continuously monitored.  
 - Alerts are triggered when values exceed healthy limits.  
 
-### Light Control & Automation
+### ✔️ Light Control & Automation
 - LDR sensors measure ambient light and send averaged data to Node-RED.  
 - Servo motor adjusts shaded sliding window based on light and temperature.  
 - Node-RED dashboard allows real-time monitoring and parameter adjustments.  
