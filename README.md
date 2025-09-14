@@ -89,11 +89,11 @@ The Medibox project is a smart medicine management system using an ESP32. It all
 
 
 ### Wokwi Simulation: 
-  <img width="786" height="457" alt="Wokwi_simulation" src="https://github.com/user-attachments/assets/22c56942-468d-4e39-bbea-f28ede15818a" />
+  <img width="600" height="400" alt="Wokwi_simulation" src="https://github.com/user-attachments/assets/22c56942-468d-4e39-bbea-f28ede15818a" />
 
 
 ### Node-RED Dashboard:  
-  <img width="786" height="457" alt="node_red_dashboard" src="https://github.com/user-attachments/assets/22a22a5b-d80f-4fce-bf47-bb794033f8e1" />
+  <img width="600" height="400" alt="node_red_dashboard" src="https://github.com/user-attachments/assets/22a22a5b-d80f-4fce-bf47-bb794033f8e1" />
 
 
 
